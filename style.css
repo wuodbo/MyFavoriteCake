@@ -1,0 +1,680 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #FFFBF5;
+    border-bottom: 1px solid #281612;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    display: flex;
+    gap: 50px;
+    padding: 0;
+    margin-left: 96px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.link {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+.link-a {
+    padding: 24px 0 24px 0;
+    text-decoration: none;
+    color: #281612;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+.link-a:hover {
+    color: #2d1515;
+}
+
+.cart {
+    margin-right: 96px;
+    text-decoration: none;
+    color: #281612;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+.cart:hover {
+    color: #2d1515;
+}
+
+.banner {
+    background-color: #FFFBF5;
+    display: flex;
+}
+
+.shop {
+    margin-left: 96px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #281612;
+    text-transform: uppercase;
+    margin-top: 108px;
+    margin-bottom: 0;
+}
+
+.brand {
+    margin-left: 96px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 70px;
+    color: #281612;
+    text-transform: uppercase;
+    margin-top: 33px;
+    margin-bottom: 0;
+}
+
+.description {
+    margin-left: 96px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    color: #281612;
+    margin-top: 33px;
+    margin-bottom: 54px;
+}
+
+.btn {
+    display: inline-flex;
+    margin-left: 168px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #281612;
+    text-decoration: none;
+    text-transform: uppercase;
+    gap: 25px;
+    margin-bottom: 120px;
+}
+
+.btn-arrow {
+    margin-top: 8px;
+}
+
+.btn:hover {
+    color: #2d1515;
+}
+
+.cooking {
+    background-color: #281612;
+    height: 1350px;
+}
+
+.cooking-title {
+    margin-left: 96px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #FFFBF5;
+    text-transform: uppercase;
+    padding-top: 39px;
+    padding-bottom: 39px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.cooking-cards {
+    display: flex;
+    gap: 51px;
+    margin-left: 96px;
+}
+
+.cooking-card {
+    position: relative;
+    width: 274px;
+    height: 446px;
+    flex-shrink: 0;
+    background: #FFFBF5;
+    overflow: visible;
+}
+
+.cooking-image {
+    margin: 20px;
+}
+
+.cooking-subtitle {
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 0;
+    color: #281612;
+}
+
+.cooking-description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 26px;
+    color: #281612;
+}
+
+.cooking-title2 {
+    margin-left: 96px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #FFFBF5;
+    text-transform: uppercase;
+    padding-top: 62px;
+    padding-bottom: 63px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.cooking-subtitle2 {
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 0;
+    text-align: center;
+    color: #281612;
+}
+
+.cooking-description2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 26px;
+    text-align: center;
+    color: #281612;
+}
+
+.cooking-card2 {
+    position: relative;
+    width: 274px;
+    height: 490px;
+    flex-shrink: 0;
+    background: #FFFBF5;
+    overflow: visible;
+}
+
+.btn-card {
+    display: inline-flex;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #281612;
+    text-decoration: none;
+    gap: 9px;
+    margin-left: 44px;
+}
+
+.btn-arrow2 {
+    margin-top: 4px;
+}
+
+.advantages {
+    background-color: #FFFBF5;
+    padding: 50px 0 80px 0;
+    position: relative;
+    z-index: 2;
+}
+
+.advantage-title {
+    margin-left: 96px;
+    margin-bottom: 40px;
+    margin-top: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #281612;
+    text-transform: uppercase;
+}
+
+.advantages-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 30px;
+    margin-left: 96px;
+    margin-right: 96px;
+}
+
+.advantage-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 340px;
+    padding: 15px 20px;
+    min-height: 90px;
+}
+
+.advantage-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top: 3px solid #281612;
+    border-left: 6px solid #281612;
+    box-sizing: border-box;
+}
+
+.advantage-icon {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.advantage-text {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #281612;
+    text-transform: uppercase;
+}
+
+.footer {
+    background-color: #281612;
+    color: #FFFBF5;
+    font-family: 'Inter', sans-serif;
+    padding: 40px 0 30px 0;
+}
+
+.footer-container {
+    margin: 0 96px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-col-1 { 
+    width: 28%; 
+}
+
+.footer-col-2 { 
+    width: 28%; 
+}
+
+.footer-col-3 { 
+    width: 32%; 
+}
+
+.footer-col-4 { 
+    width: 12%; 
+}
+
+.footer-logo {
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+    letter-spacing: 0.5px;
+}
+
+.footer-title {
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+    letter-spacing: 0.5px;
+}
+
+.footer-desc {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.4;
+    margin: 0 0 10px 0;
+    color: #FFFBF5;
+}
+
+.footer-address {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.4;
+    margin: 0;
+    text-transform: uppercase;
+    color: #FFFBF5;
+}
+
+.footer-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #FFFBF5;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.footer-nav-link {
+    color: #FFFBF5;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.footer-bottom {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.footer-copy {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.footer-bottom-link {
+    color: #FFFBF5;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.catalog-title3 {
+    margin-left: 96px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #281612;
+    text-transform: uppercase;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.catalog {
+    background-color: #FFFBF5;
+    height: 1250px;
+}
+
+.cooking-card3 {
+    position: relative;
+    width: 274px;
+    height: 490px;
+    flex-shrink: 0;
+    background: #281612;
+    overflow: visible;
+}
+
+.btn-card2 {
+    display: inline-flex;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #FFFBF5;
+    text-decoration: none;
+    gap: 9px;
+    margin-left: 44px;
+}
+
+.btn-arrow3 {
+    margin-top: 4px;
+    color: #FFFBF5;
+}
+
+.cooking-subtitle3 {
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 0;
+    text-align: center;
+    color: #FFFBF5;
+}
+
+.cooking-description3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 26px;
+    text-align: center;
+    color: #FFFBF5;
+}
+
+.cooking-cards2 {
+    display: flex;
+    gap: 51px;
+    margin-left: 96px;
+    flex-wrap: wrap;
+    color: #FFFBF5;
+}
+
+.about {
+    display: flex;
+    background-color: #FFFBF5;
+    align-items: stretch;
+    min-height: 600px;
+}
+
+.about-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 96px;
+    padding-right: 50px;
+}
+
+.about-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    color: #281612;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #281612;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.about-text2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #281612;
+    text-transform: uppercase;
+    margin-top: 0;
+    text-align: end;
+    margin-bottom: 0;
+}
+
+.about-contacts {
+    text-align: right;
+    margin-top: auto;
+}
+
+.contacts-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #281612;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.contacts-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #281612;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.contacts-address {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #281612;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.contacts-link {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #281612;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.about-image-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-right: 96px;
+    box-sizing: border-box;
+}
+
+.about-image {
+    max-height: 700px;
+    width: auto;
+    display: block;
+}
+
+.tovar-card {
+    background-color: #FFFBF5;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 96px;
+    padding-right: 96px;
+    min-height: 700px;
+}
+
+.tovar-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 45px;
+    color: #281612;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.card-wrapper {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.card-left {
+    flex: 0 1 auto;
+}
+
+.card-img-main {
+    max-width: 100%;
+    max-height: 600px;
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+.card-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card-img-secondary {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-text-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.card-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #281612;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+.btn-order {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #281612;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
